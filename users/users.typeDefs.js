@@ -13,10 +13,4 @@ export default gql`
         createAt: String!
         updateAt: String!    
     }
-    type Query {
-        seeProfile(username: String!): User
-    }
-    type Mutation {
-        createAccount(username: String!, email: String!, name: String, password: String!): User
-    }
 `;

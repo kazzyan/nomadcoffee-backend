@@ -3,4 +3,10 @@
 insta clone backend
 
 ## user
-[v] createAccount
+[v] Create Account
+[v] See Profile
+[v] Login
+[v] Edit Profile
+[v] Change Avatar (Image Upload)
+
+
