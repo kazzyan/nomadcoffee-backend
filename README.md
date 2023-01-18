@@ -16,4 +16,15 @@ insta clone backend
 [v] Computed Fields (User schema)
 [v] Search Users (offset pagination)
 
+## coffeeShop
+[v] Create Model (prisma schema)
+[v] Create CoffeeShop
+[v] See CoffeeShops
+[v] See CoffeeShop
+[v] See Category
+[v] See Categories
+[v] Edit CoffeeShop
+
+
+
 
