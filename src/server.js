@@ -11,8 +11,10 @@ import { getThisUser } from "./users/users.util";
 const apollo = new ApolloServer({
     typeDefs,
     resolvers,
+    playground: true,
+    introspection: true,
     context: async ({ req }) => {
-        return { 
+        return {
             thisUser: await getThisUser(req.headers.auth)
         }
     }
@@ -29,5 +31,6 @@ apollo.applyMiddleware({ app });
 const PORT = process.env.APOLLO_PORT;
 
 app.listen({ port: PORT }, () => {
-    console.log(`express & Apollo Server is runngin on http://localhost:${PORT}`)}
+    console.log(`express & Apollo Server is runngin on http://localhost:${PORT}`)
+}
 );

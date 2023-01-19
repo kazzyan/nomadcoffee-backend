@@ -28,3 +28,5 @@ insta clone backend
 
 
 
+## deploy backend
+[v] backend server deploy (but, heroku is not free)
